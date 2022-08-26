@@ -10,7 +10,7 @@ const About = () => (
       </div>
 
       <div className='app__about-content_cv'>
-        <h1 className='headtext__cormorant'>Bio</h1>
+        <h1 className='headtext__cormorant'>About me</h1>
 
         <p className='p__opensans'>
           Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat.

@@ -14,7 +14,7 @@ const Footer = () => (
       <div className='app__footer-links_contact'>
         <h1 className='app__footer-headtext'>Contact Me</h1>
         <p className='p__opensans'>Mycalle, Berlin, 10019, Germany</p>
-        <p className='p__opensans'>contact@saraferrer.com</p>
+        <p className='p__opensans'>contact@titirum.com</p>
         <p className='p__opensans'>+1 212-555-1230</p>
       </div>
 
@@ -33,7 +33,7 @@ const Footer = () => (
     </div>
 
     <div className='footer__copyright'>
-      <p className='p__opensans'>2022© Sara Ferrer. All Rights reserved.</p>
+      <p className='p__opensans'>2022© Titirum. All Rights reserved.</p>
     </div>
   </div>
 );

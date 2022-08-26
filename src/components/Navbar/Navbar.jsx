@@ -25,14 +25,14 @@ const Navbar = () => {
           <a href='#home'>Home</a>
         </li>
         <li className='p__opensans'>
-          <a href='#artworks'>Artworks</a>
+          <a href='#gallery'>Gallery</a>
         </li>
         <li className='p__opensans'>
           <a href='#about'>About</a>
         </li>
 
         <li className='p__opensans'>
-          <a href='#contact'>Contact</a>
+          <a href='#findus'>Contact</a>
         </li>
       </ul>
 
