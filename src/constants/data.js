@@ -59,22 +59,22 @@ const projects = [
 const awards = [
   {
     imgUrl: images.award02,
-    title: 'Bib Gourmond',
+    title: 'Blue Lagoooooons',
     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
   },
   {
     imgUrl: images.award01,
-    title: 'Rising Star',
+    title: 'Diving the World',
     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
   },
   {
     imgUrl: images.award05,
-    title: 'AA Hospitality',
+    title: 'Water ideas',
     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
   },
   {
     imgUrl: images.award03,
-    title: 'Outstanding Chef',
+    title: 'Migrating',
     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
   },
 ];
