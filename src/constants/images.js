@@ -14,6 +14,7 @@ import award02 from '../assets/award02.png';
 import award03 from '../assets/award03.png';
 import award05 from '../assets/award05.png';
 import aboutimage from '../assets/aboutimage.png';
+import works from '../assets/works.png';
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
@@ -33,4 +34,5 @@ export default {
   award02,
   award03,
   award05,
+  works,
 };

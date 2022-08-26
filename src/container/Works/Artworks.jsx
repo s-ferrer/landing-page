@@ -7,19 +7,19 @@ import './Artworks.css';
 const Artworks = () => (
   <div className='app__artworks flex__center section__padding' id='works'>
     <div className='app__artworks-title'>
-      <h1 className='headtext__cormorant'>Today&apos;s Special</h1>
+      <h1 className='headtext__cormorant'>On going</h1>
     </div>
 
     <div className='app__artworks-works'>
-      <div className='app__artworks-works_wine  flex__center'>
-        <p className='app__artworks-works_heading'>Wine & Beer</p>
+      <div className='app__artworks-works_news  flex__center'>
+        <p className='app__artworks-works_heading'>News</p>
         <div className='app__artworks_works_items'>
-          {data.wines.map((wine, index) => (
+          {data.news.map((news, index) => (
             <WorksItem
-              key={wine.title + index}
-              title={wine.title}
-              price={wine.price}
-              tags={wine.tags}
+              key={news.title + index}
+              title={news.title}
+              year={news.year}
+              tags={news.tags}
             />
           ))}
         </div>
@@ -29,15 +29,15 @@ const Artworks = () => (
         <img src={images.works} alt='works__img' />
       </div>
 
-      <div className='app__artworks-works_cocktails  flex__center'>
-        <p className='app__artworks-works_heading'>Cocktails</p>
+      <div className='app__artworks-works_projects  flex__center'>
+        <p className='app__artworks-works_heading'>Projects</p>
         <div className='app__artworks_works_items'>
-          {data.cocktails.map((cocktail, index) => (
+          {data.projects.map((project, index) => (
             <WorksItem
-              key={cocktail.title + index}
-              title={cocktail.title}
-              price={cocktail.price}
-              tags={cocktail.tags}
+              key={project.title + index}
+              title={project.title}
+              year={project.year}
+              tags={project.tags}
             />
           ))}
         </div>

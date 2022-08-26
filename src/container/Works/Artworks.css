@@ -27,15 +27,15 @@
   color: var(--color-white);
 }
 
-.app__artworks-works_wine,
-.app__artworks-works_cocktails {
+.app__artworks-works_news,
+.app__artworks-works_projects {
   flex: 1;
   width: 100%;
   flex-direction: column;
 }
 
 .app__artworks-works_img {
-  width: 410px;
+  width: 250px;
   margin: 0 2rem;
 }
 
@@ -58,7 +58,7 @@
   }
 
   .app__artworks-works_img img {
-    height: 920px;
+    height: 820px;
   }
 }
 

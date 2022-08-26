@@ -1,58 +1,58 @@
 import images from './images';
 
-const wines = [
+const news = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'Project 1',
+    year: '2022',
+    tags: 'AU | Book',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'Project 2',
+    year: '2021',
+    tags: 'AU | Book',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: 'Project 3',
+    year: '2020',
+    tags: 'FR | interview',
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    title: 'Project 4',
+    year: '2019',
+    tags: 'CA | open studio',
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: 'Project 5',
+    year: '2018',
+    tags: 'IE | interview',
   },
 ];
 
-const cocktails = [
+const projects = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'News 01',
+    year: '2022',
+    tags: 'SP | Installation | museum | open air',
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    title: 'News 02',
+    year: '2018',
+    tags: 'SP | sculpture | museum | awarness',
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    title: 'News 03',
+    year: '2019',
+    tags: 'SP | painting | gallery | environment',
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    title: 'News 04',
+    year: '2017',
+    tags: 'SP | Installation |underwater | social',
   },
   {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: 'News 05',
+    year: '2016',
+    tags: 'SP | sculpture | museum | open air',
   },
 ];
 
@@ -80,4 +80,4 @@ const awards = [
 ];
 
 // eslint-disable-next-line import/no-anonymous-default-export
-export default { wines, cocktails, awards };
+export default { news, projects, awards };
